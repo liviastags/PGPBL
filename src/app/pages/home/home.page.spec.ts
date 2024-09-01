@@ -38,6 +38,6 @@ describe('HomePage', () => {
 
     component.newPickupCall();
 
-    expect(router.navigate).toHaveBeenCalledWith(['pickup-call']);
+    expect(router.navigate).toHaveBeenCalledWith(['pick-up']);
   })
 });

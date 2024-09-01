@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router } from '@angular/router'; // Import Router
 
 @Component({
   selector: 'app-loader',
@@ -13,6 +13,9 @@ export class LoaderPage implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.router.navigate(['login']);
-    }, 1000)
+    }, 1000
+  )
+    
   }
+
 }
